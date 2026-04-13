@@ -38,6 +38,20 @@ avatar: /assets/img/avatar.jpg  # add your photo here later
 
 toc: true  # table of contents on posts
 
+# Collections — required for Chirpy sidebar navigation
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
 comments:
   active:  # leave blank — no comments to start
 
