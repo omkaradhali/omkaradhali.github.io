@@ -1,0 +1,76 @@
+title: Omkar Adhali
+tagline: Technical writing, creative essays, and life observations.
+description: >-
+  Personal blog by Omkar Adhali. Writing about AI/ML, software engineering,
+  homelab adventures, creative essays, and life lessons.
+
+url: "https://omkaradhali.dev"
+baseurl: ""
+
+author:
+  name: Omkar Adhali
+
+github:
+  username: omkaradhali
+
+# Social links — add Twitter/LinkedIn if desired later
+# twitter:
+#   username:
+
+# Theme
+theme: jekyll-theme-chirpy
+
+# Timezone
+timezone: America/New_York
+future: true
+
+# Permalinks
+permalink: /posts/:title/
+
+# Pagination
+paginate: 10
+
+# Chirpy-specific settings
+lang: en
+theme_mode: # leave empty to follow OS preference (light/dark auto)
+
+avatar: /assets/img/avatar.jpg  # add your photo here later
+
+toc: true  # table of contents on posts
+
+comments:
+  active:  # leave blank — no comments to start
+
+analytics:
+  google:
+    id:  # leave blank — no analytics to start
+
+# Category and tag archive pages (required for chirpy)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-include-cache
+  - jekyll-paginate
+
+# Exclude from build
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - "*.gem"
+  - "*.gemspec"
+  - README.md
